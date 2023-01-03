@@ -5,11 +5,20 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 
-    --clr-primary: #468284;
+    /* --clr-primary: #468284;
     --clr-secondary: #5f9ea0;
     --clr-tertiary: #2F4F4F;
     --clr-accent: #708090;
-    --clr-highlight: #778899;
+    --clr-highlight: #778899; */
+
+    /* #082d52; */
+    /* #522D08 */
+
+    --clr-primary:#f0f8ff;	    /*(240,248,255)*/
+    --clr-secondary:#91caf9;	    /*(145,202,249)*/
+    --clr-tertiary:#1b3344;	    /*(27,51,68)*/
+    --clr-accent:#708090;	    /*(112,128,144)*/
+    --clr-highlight:#3c4447;	    /*(60,68,71)*/
 }
 
 body {
@@ -39,7 +48,8 @@ header h1 {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-tertiary);
+    color: var(--clr-primary);
 }
 
 .accordion__title {
