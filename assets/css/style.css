@@ -337,7 +337,7 @@ header {
     background-blend-mode: multiply;
     color: var(--clr-primary);
     max-width: 100vw;
-    height: 1500px;
+    height: 1600px;
 }
 
 .section__title--toolbox {
