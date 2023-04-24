@@ -371,6 +371,7 @@ header {
     margin-bottom: 20px;
     background-color: var(--clr-tertiary);
     color: var(--clr-primary);
+    position: relative;
 }
 
 .accordion__title {
@@ -381,6 +382,10 @@ header {
 }
 
 .accordion__item__title {
+    font-weight: 700;
+}
+
+.accordion__item__author {
     font-weight: 700;
 }
 
@@ -404,6 +409,12 @@ header {
 .accordion__body ul {
     list-style: none;
 }
+
+.accordion__body ul li {
+    border-bottom: solid;
+}
+
+
 
 a:hover {
     transform: scale(1.1);
