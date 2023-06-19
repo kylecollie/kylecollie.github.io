@@ -313,6 +313,15 @@ header {
     padding: 2em;
 }
 
+.lesson__item p {
+    font-size: 1.3rem;
+    margin-bottom: -1em;
+}
+
+.lesson__item>p>span {
+    font-weight: 700;
+}
+
 .section__title--lesson {
     padding-top: 3em;
 }
