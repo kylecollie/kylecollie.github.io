@@ -271,7 +271,8 @@ header {
         grid-column-gap: 5em;
         grid-template-areas:
             "img title"
-            "img subtitle";
+            "img subtitle"
+            "img announcement";
         grid-template-columns: min-content max-content;
     }
 
@@ -288,7 +289,19 @@ header {
         text-align: center;
         position: relative;
         left: -1.5em;
+        top: 100px;
         width: calc(100% + 1.5em);
+    }
+
+    .section__announcement--intro {
+        grid-row: 3;
+        grid-column: 1 / -1;
+        position: relative;
+        top: 0;
+    }
+
+    .not {
+        color: crimson;
     }
 }
 
